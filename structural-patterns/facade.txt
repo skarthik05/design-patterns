@@ -1,0 +1,6 @@
+Well...we can probably come out with lots of examples for this, right? I mean, React itself or any of the gazillion libraries out there used for pretty much anything related to software development. Specially when we think about declarative programming, it's all about providing abstractions that hide away complexity from the eyes of the developer.
+
+A simple example could be JavaScript's map, sort, reduce and filter functions, which all work like good 'ol for loops beneath the hood.
+
+Another example could be any of the libraries used for UI development nowadays, like MUI. As we can see in the following example, these libraries offer us components that bring built-in features and functionalities that help us build code faster and easier.
+

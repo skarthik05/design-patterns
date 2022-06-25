@@ -1,0 +1,3 @@
+Anyway, any of the JavaScript built in functions we have at our disposal to iterate over data structures (for, forEach, for...of, for...in, map, reduce, filter, and so on) are examples of the iterator pattern.
+
+Same as any traversing algorithm we code to iterate through more complex data structures like trees or graphs.

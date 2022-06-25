@@ -37,11 +37,25 @@ Technically, components in React functions, not objects. But if we think about h
 ### Facade Pattern
 The Facade pattern provides a simplified interface to a library, a framework, or any other complex set of classes.
 
-Well...we can probably come out with lots of examples for this, right? I mean, React itself or any of the gazillion libraries out there used for pretty much anything related to software development. Specially when we think about declarative programming, it's all about providing abstractions that hide away complexity from the eyes of the developer.
-
-A simple example could be JavaScript's map, sort, reduce and filter functions, which all work like good 'ol for loops beneath the hood.
 
 ### Proxy Pattern
 The Proxy pattern provides a substitute or placeholder for another object. The idea is to control access to the original object, performing some kind of action before or after the request gets to the actual original object.
 
 Again, if you're familiar with ExpressJS this probably rings a bell for you. Express is a framework used to develop NodeJS APIs, and one of the features it has is the use of Middlewares. Middlewares are nothing more than pieces of code we can make execute before, in the middle, or after any request reaches our endpoints.
+
+## Behavioral Design Patterns
+Behavioral patterns control communication and the assignment of responsibilities between different objects.
+
+### Chain of Responsibility Pattern
+The Chain of Responsibility passes requests along a chain of handlers. Each handler decides either to process the request or to pass it to the next handler in the chain.
+
+For this pattern we could use the same exact example as before, as middlewares in Express are somehow handlers that either process a request or pass it to the next handler.
+
+### Iterator Pattern
+The iterator is used to traverse elements of a collection. This might sound trivial in programming languages used nowadays, but this wasn't always the case.
+
+
+### Observer Pattern
+The observer pattern lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing. Basically, it's like having an event listener on a given object, and when that object performs the action we're listening for, we do something.
+
+React's useEffect hook might be a good example here. What useEffect does is execute a given function at the moment we declare.

@@ -1,0 +1,4 @@
+The Decorator pattern lets you attach new behaviors to objects by placing them inside wrapper objects that contain the behaviors. If you're somewhat familiar with React and higher order components (HOC) this kind of approach probably rings a bell for you.
+
+Technically, components in React functions, not objects. But if we think about how React Context or Memo we can see that we're passing a component as a child to this HOC, and thanks to that this child component is able to access certain features.
+
